@@ -1,0 +1,9 @@
+JAXB is an older Java specification and is not defined by JAX-RS. 
+JAXB is an annotation framework that maps Java classes to XML and XML schema. 
+It is extremely useful because instead of interacting with an abstract representation of an XML document, 
+you can work with real Java objects that are closer to the domain you are modeling. 
+JAX-RS has built-in support for JAXB. 
+
+
+run-server  file first
+and then client. Can see the output on console and url::http://localhost:8080/com.vogella.jersey.jaxb.model/rest/todo
